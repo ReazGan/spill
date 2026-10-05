@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="783" height="397" viewBox="0 0 783 397">
+<rect width="783" height="397" rx="8" fill="#1d2026"/>
+<g fill="#3a3f48"><circle cx="20" cy="18" r="5"/><circle cx="38" cy="18" r="5"/><circle cx="56" cy="18" r="5"/></g>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" xml:space="preserve">
+<text y="52" style="white-space:pre"><tspan x="22.0" fill="#cdd3dc" >$ spill http://localhost:8099</tspan></text>
+<text y="71" style="white-space:pre"><tspan x="22.0" fill="#cdd3dc" font-weight="bold" >spill</tspan><tspan x="72.4" fill="#cdd3dc" >v0.1.0</tspan></text>
+<text y="90" style="white-space:pre"></text>
+<text y="109" style="white-space:pre"><tspan x="47.2" fill="#cdd3dc" font-weight="bold" >CRITICAL </tspan><tspan x="139.6" fill="#cdd3dc" font-weight="bold" >OpenAI key</tspan></text>
+<text y="128" style="white-space:pre"><tspan x="72.4" fill="#7c8592" >http://localhost:8099/assets/app.js</tspan></text>
+<text y="147" style="white-space:pre"><tspan x="72.4" fill="#cdd3dc" >found: sk-proj-***7890</tspan></text>
+<text y="166" style="white-space:pre"><tspan x="72.4" fill="#7c8592" >An OpenAI key in the browser can be drained by anyone who views source. Move calls</tspan></text>
+<text y="185" style="white-space:pre"><tspan x="72.4" fill="#7c8592" >server-side and rotate.</tspan></text>
+<text y="204" style="white-space:pre"></text>
+<text y="223" style="white-space:pre"><tspan x="47.2" fill="#cdd3dc" font-weight="bold" >CRITICAL </tspan><tspan x="139.6" fill="#cdd3dc" font-weight="bold" >Stripe secret key</tspan></text>
+<text y="242" style="white-space:pre"><tspan x="72.4" fill="#7c8592" >http://localhost:8099/assets/app.js</tspan></text>
+<text y="261" style="white-space:pre"><tspan x="72.4" fill="#cdd3dc" >found: sk_live_***EFGH</tspan></text>
+<text y="280" style="white-space:pre"><tspan x="72.4" fill="#7c8592" >A Stripe SECRET key (sk_live) in the browser lets anyone charge and refund on your</tspan></text>
+<text y="299" style="white-space:pre"><tspan x="72.4" fill="#7c8592" >account. Rotate it immediately.</tspan></text>
+<text y="318" style="white-space:pre"></text>
+<text y="337" style="white-space:pre"><tspan x="22.0" fill="#cdd3dc" >2 source(s) scanned</tspan></text>
+<text y="356" style="white-space:pre"><tspan x="22.0" fill="#cdd3dc" font-weight="bold" >2 critical</tspan></text>
+</g></svg>
